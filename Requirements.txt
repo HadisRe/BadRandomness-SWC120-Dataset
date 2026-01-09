@@ -1,0 +1,9 @@
+# BadRandomness-SWC120-Dataset
+# Python 3.8+ required
+#
+# This project uses only Python standard library modules.
+# No external packages are required.
+#
+# Standard library modules used:
+# - os, re, json, argparse, shutil
+# - datetime, typing, dataclasses
