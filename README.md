@@ -8,7 +8,7 @@ A Risk-Stratified Benchmark Dataset for Bad Randomness (SWC-120) Vulnerabilities
 
 ## Overview
 
-This repository provides a comprehensive benchmark dataset for evaluating tools that detect bad randomness vulnerabilities in Ethereum smart contracts. The dataset contains **17,466 contracts** extracted from the SmartBugs-Wild collection, with each contract labeled according to a four-level risk classification system.
+This repository provides a benchmark dataset for evaluating tools that detect bad randomness vulnerabilities in Ethereum smart contracts. The dataset contains **17,466 contracts** extracted from the SmartBugs-Wild collection, with each contract labeled according to a four-level risk classification system.
 
 Bad randomness (SWC-120) occurs when smart contracts use predictable blockchain values such as `block.timestamp`, `blockhash`, or `block.difficulty` to generate random numbers. Attackers can exploit this weakness to predict outcomes and steal funds.
 
@@ -211,33 +211,9 @@ The `final_dataset.json` file contains:
 | SWC Registry | 2 | - | No | No |
 | SmartBugs Curated | 8 | - | No | Partial |
 | RNVulDet | 34 | 214 | No | No |
-| **Ours** | **1,752** | **6** | **Yes** | **Yes** |
+| **Ours** | **1,752** | **1,782** | **Yes** | **Yes** |
 
 Our dataset provides **51x more vulnerable contracts** than RNVulDet and is the first to include risk-level classification with function-level validation.
 
-## Citation
 
-If you use this dataset in your research, please cite:
 
-```bibtex
-@article{rezaei2025badrandomness,
-  title={A Risk-Stratified Benchmark Dataset for Bad Randomness (SWC-120) Vulnerabilities in Ethereum Smart Contracts},
-  author={Rezaei, Hadis and Taheri, Rahim and Palmieri, Francesco},
-  journal={...},
-  year={2025}
-}
-```
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## Acknowledgments
-
-- SmartBugs team for the SmartBugs-Wild dataset
-- Ethereum community for vulnerability documentation
-
-## Contact
-
-- Hadis Rezaei - hrezaei@unisa.it
-- University of Salerno, Italy
