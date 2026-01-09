@@ -56,10 +56,13 @@ BadRandomness-SWC120-Dataset/
 │   ├── phase5_context_aware.py
 │   └── test_ground_truth.py
 ├── dataset/
+│   ├── HIGH_RISK/
+│   ├── MEDIUM_RISK/
+│   ├── LOW_RISK/
+│   ├── SAFE/
 │   └── final_dataset.json
 └── ground_truth/
-    ├── vulnerable/
-    └── safe/
+    └── *.sol (vulnerable and safe contracts for testing)
 ```
 
 ## Methodology
