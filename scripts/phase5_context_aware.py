@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""
+ """
 Phase 5: Context-Aware Analyzer
 
 This script analyzes contracts that were flagged as NO_BAD_RANDOMNESS in Phase 4,
@@ -18,9 +17,7 @@ Analysis performed:
 
 Mining Tokens are excluded from the final dataset because their use of block
 attributes is for computational puzzles, not random number generation.
-
-Input: Directory containing contracts to analyze
-Output: JSON file with context analysis results
+ 
 """
 
 import os
@@ -343,4 +340,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
